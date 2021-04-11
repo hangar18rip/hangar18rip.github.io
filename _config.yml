@@ -32,6 +32,7 @@ github_username:  hangar18rip
 google_analytics: true
 show_excerpts: true
 date_format: "%-d %b %Y"
+permalink: /:categories/:year/:month/:day/:title:output_ext
 
 # Build settings
 theme: # minima
