@@ -3,10 +3,9 @@ layout: post
 title:  "Manage multiple user profile with git"
 date:   2021-04-11 14:12:14 +0200
 tags: git tips consulting
-categories: blog #git tips consulting
+categories: en
 author: Olivier Delmotte
 thumb: /assets/rtfm.jpg
-language: en
 published: false
 # permalink: /blog/multiple-identity-git
 ---
