@@ -1,9 +1,12 @@
 ---
 layout: post
 title:  "Gérer plusieurs personnalités dans git"
-date:   2021-04-11 14:12:14 +0200
+date:   2021-04-11 14:12:15 +0200
 tags: git tips consulting
 categories: blog #git tips consulting
+author: Olivier Delmotte
+thumb: /assets/rtfm.jpg
+language: fr
 # permalink: /blog/multiple-identity-git
 ---
 En tant que consultant, je travaille régulièrement pour des clients différents en plus des projets internes et même quelques projets persos sur GitHub ou autre.
