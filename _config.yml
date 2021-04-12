@@ -60,7 +60,9 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
+exclue:
+  - js/
+  
 # https://jekyll-themes.com/texture/
 # texture:
 #   title: Adam Denisov
