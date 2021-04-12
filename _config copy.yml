@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you:
+# If you need help with YAML syntax, here are some quick references for you: 
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -23,13 +23,13 @@ email: # olivier@hangar18.fr
 description: >- # this means to ignore newlines until "baseurl:"
 # Ce site est privé et ne reflette que mes opinions, en aucun cas celle de mon employeur
 disclaimer: >- # this means to ignore newlines until "baseurl:"
-  This site is private and reflects my opinions only. Cookies on this site are used for telemetry only with [Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview).
+  This site is private and reflects my opinions only. Cookies on this site are used for telemetry only. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author: Olivier Delmotte
 twitter_username: hangar18_rip
 github_username:  hangar18rip
-linkedin_username: odelmotte
+google_analytics: true
 show_excerpts: true
 date_format: "%-d %b %Y"
 permalink: /:categories/:year/:month/:day/:title:output_ext

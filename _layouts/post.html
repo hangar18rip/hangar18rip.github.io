@@ -14,7 +14,7 @@ layout: default
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
   </header>
-
+  <div id="toc"></div>
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
@@ -25,3 +25,12 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+<!-- https://blog.webjeda.com/jekyll-toc/ -->
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+<script src="/js/table-of-contents/toc.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+      $('#toc').toc({title : '<b>Content</b>', headers: 'h1, h2, h3' });
+  });
+  </script>
