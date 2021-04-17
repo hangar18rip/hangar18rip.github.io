@@ -37,7 +37,7 @@ La décision a été prise de dupliquer les pipelines et de se focaliser sur la 
 
 L'optimisation / mutualisation des pipelines se ferait dans un deuxième temps.
 
-# la v1 !
+# Et voilà la v1
 
 Cette solution de copier / collé a plutôt bien fonctionné pour les pipelines. Et avec les pipelines des deux projets gérés par la même personne, il était assez facile de reporter les updates / fixes entre les deux version. Mais ça ne peut pas durer ! Que va-t-il se passer quand il y aura 10 projets similaires en parallèle ?
 
