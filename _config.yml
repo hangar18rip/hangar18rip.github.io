@@ -39,10 +39,11 @@ locale: 'fr_FR'
 # Build settings
 # theme: # minima
 # theme: minimal-mistakes-jekyll
-# remote_theme: "mmistakes/minimal-mistakes@4.22.0"
+remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 
 # texture
 plugins:
+  - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-gist
@@ -51,6 +52,7 @@ plugins:
   - jekyll-include-cache
 
 whitelist:
+  - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-gist
@@ -106,7 +108,7 @@ exclude:
 #     github:  thelehhman
 #     linkedIn: in/thelehhman # format: locale/username
 
-# minimal_mistakes_skin: "Dark2"
+minimal_mistakes_skin: "Dark2"
 # breadcrumbs: true
 words_per_minute: 150
 defaults:
