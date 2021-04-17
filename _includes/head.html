@@ -5,5 +5,7 @@
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
-  {%- include ai.html -%}
+  {% if jekyll.environment == "production" %}
+    {%- include ai.html -%}
+  {% endif %}
 </head>

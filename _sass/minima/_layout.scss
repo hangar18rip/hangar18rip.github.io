@@ -145,6 +145,7 @@
 .footer-col-3 {
   width: -webkit-calc(45% - (#{$spacing-unit} / 2));
   width: calc(45% - (#{$spacing-unit} / 2));
+  font-size: 0.8em;
 }
 
 @include media-query($on-laptop) {

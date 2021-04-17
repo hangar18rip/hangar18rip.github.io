@@ -1,5 +1,5 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <data class="u-url" href="{{ " /" | relative_url }}"></data>
 
   <div class="wrapper">
 
@@ -10,15 +10,15 @@
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
-              {{ site.author | escape }}
+            {{ site.author | escape }}
             {%- else -%}
-              {{ site.title | escape }}
+            {{ site.title | escape }}
             {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-            <li>subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></li>
+          </li>
+          {%- if site.email -%}
+          <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {%- endif -%}
+          <li>s'abonner via <a href="{{ " /feed.xml" | relative_url }}">RSS</a></li>
         </ul>
       </div>
 
@@ -27,7 +27,11 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>This site is private and reflects my opinions only. Cookies are set and data is collected for telemetry only. Telemetry is powered by <a href="https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview" target="_blank">Application Insights</a></p>
+        <p>Ce site est privé. Les opinions exprimées sont les miennes et en aucun cas au nom de mon employeur.<br />
+          Les cookies de ce site sont destinés à un usage exclusivement technique (télémétrie, performance). La
+          télemetry est assurée par <a
+            href="https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview"
+            target="_blank">Application Insights</a></p>
       </div>
     </div>
 

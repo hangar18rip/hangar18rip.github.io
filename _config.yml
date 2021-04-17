@@ -33,6 +33,8 @@ linkedin_username: odelmotte
 show_excerpts: true
 date_format: "%-d %b %Y"
 permalink: /:categories/:year/:month/:day/:title:output_ext
+timezone: 'Europe/Paris'
+locale: 'fr_FR'
 
 # Build settings
 theme: # minima
