@@ -36,6 +36,7 @@ permalink: /:categories/:year/:month/:day/:title:output_ext
 
 # Build settings
 theme: # minima
+# theme: minimal-mistakes-jekyll
 # texture
 plugins:
   - jekyll-feed
@@ -60,8 +61,9 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-exclue:
-  - js/
+exclude:
+  - js/**/*.md
+  - assets/**/*.md
   
 # https://jekyll-themes.com/texture/
 # texture:

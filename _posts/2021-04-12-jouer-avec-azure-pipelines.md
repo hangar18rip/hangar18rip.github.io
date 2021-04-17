@@ -9,7 +9,15 @@ thumb: /assets/pipelines.jpg
 published: false
 ---
 
-Azure Pipelines, version Yaml, offre des possibilités très intéressantes. Il est vrai que l'absence d'interface d'interface pour éditer les pipelines peut décourager, mais après un peu de pratique, on y prend goût et on se surprend à faire des choses assez intéressantes.
+Je travail actuellement sur des projets de même nature pour un client. Chaque projet vit sa vie pour les besoins business mais leur architecture de base est la même.
+
+Pour simplifier la maintenance de ces projets, nous avons décidé de mutualiser au maximum : practices, scripts IaC, pipelines.
+
+Si pour les practices et les scripts IaC la chose est plus habituelle, c'était un peu moins l'habitude sur les pipelines depuis l'abandon du système basé sur Workflow Foundation. Excepté les Task Groups, il était difficile de faire du reuse cross projet.
+
+C'est une grosse occasion de tester les limites du système de template Azure Pipelines version Yaml.
+
+Ce système offre des possibilités très intéressantes. Il est vrai que l'absence d'interface d'interface pour éditer les pipelines peut décourager, mais après un peu de pratique, on y prend goût et on se surprend à faire des choses assez intéressantes.
 
 # Pipeline as Code
 
@@ -54,14 +62,37 @@ Dans ce cas là, on facilite la lecture et le développement des pipelines. On p
 
 Ce genre de possibilité permet de factoriser certaines parties de pipelines : déploiement Infra as Code, exécution de tests, etc. Toujours dans l'optique mutualiser les efforts.
 
-# each & if
+# ```each``` & ```if```
 
 Les pipeline yaml offrent la possibilité d'utiliser des boucles et des branchement
 
-## each
+## ```each```
 
-Boucler avec le précedent système de pipeline n'était pas possible.
+Boucler avec le précedent système de pipeline n'était pas possible (si on fait abstraction des matrices).
 
+Dans Azure Pipelines, on peut toujours utiliser les matrices pour compiler un même code pour plusieurs plate-formes, mais on peut aussi boucler à loisir :
+- au niveau stage, pour boucler sur une liste d'environnement par exemple. On en parle plus loin
+- au niveau jobs aussi et tâches
+- sur un ou plusieurs éléments regroupés
 
-## if
+Bref, très grosse souplesse d'action.
+
+## ```if```
+
+Comme pour les boucles, même souplesse. Il existe déjà l'attribut ```condition``` sur les éléments ```stage```, ```job``` & ```task```. Mais condition implique de définir l'attribut sur chaque élémént. ```if``` permet de regrouper plusieurs éléments.
+
+Autre avantage, si ```if``` est évalué à ```false```, l'élément n'apparaît pas dans le log du run.
+
+Rien n'empêche de combiner les deux systèmes.
+
+# Advanced templating
+
+Quand on doit faire du reuse sur plusieurs projets, on fait face à plusieurs contraintes :
+- 1 modification impacte n projets
+- certains projets ont quand même des particularités : composants supplémentaires, composants activés ou non
+- le nombre d'environnements
+- une ou plusieurs cibles de déploiement (ex : cloud + onprem)
+- ...
+
+Il faut donc pouvoir adapter le template à ces particularités
 
