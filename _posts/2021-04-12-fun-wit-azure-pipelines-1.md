@@ -13,7 +13,7 @@ Chez un de mes clients, je suis en charge, entre autre, de l'usine de livraison,
 
 C'est l'occasion parfaite de pousser un peu plus loin mes expérimentations sur Azure Pipelines, version Yaml, et de jouer avec certains concepts.
 
-# Contexte - la v0.0
+# Projet #1 - la v0.0
 
 Pas besoin de rentrer dans les détails sur la stack technique des projets, mais plutôt sur quelques principe et un peu d'historique.
 
@@ -50,7 +50,7 @@ Même si le pipeline de base et sa copie étaient déjà découpés, il fallait 
 - S'assurer que les templates n'étaient pas spécifiques à un projet
 - Assurer la transition entre le mode tout intégré et le mode templatisé
 
-Voici à quoi représente la définition du pipeline, dans une version simplifiée
+Voici à quoi représente la définition du pipeline, dans une version simplifiée, avant :
 
 ```yaml
 trigger:
@@ -134,9 +134,11 @@ La deuxième étape consiste à anonymiser ce projet :
 - identifier tous les éléments "hard-codés" correspondant au premier projet
 - les remplacer par des paramètres
 - tester !
+- itérer
 
 ## Transition
 
+La transition devrait se faire en douceur.
 
 # Versioning
 
@@ -169,6 +171,121 @@ L'attribut ref de l'élément repository est intéressant dans la mesure où il 
 
 Le tag permet par ailleurs de faire un rollback rapidement en cas de bug majeur sur un template.
 
+# Résultat final
+
+## Côté templates
+
+Dans le repo des templates :
+
+
+Le template ```base.yaml```
+
+```yaml
+# pipeline template
+parameters:
+- name: projectName
+  type: string
+  default: Project Z
+
+stages:
+- stage: Build
+  displayName: Build ${{ parameters.projectName }}
+  jobs:
+  - template: build/build-jobs-template.yml
+    parameters:
+      projectName: ${{ parameters.projectName }}
+- stage: DeployOnEnv1
+  displayName: Deploy on Env1 on ${{ parameters.projectName }}
+  dependsOn: Build
+  jobs:
+  - template: deploy/deploy-jobs-template.yml
+    parameters:
+      projectName: ${{ parameters.projectName }}
+- stage: DeployOnEnv2
+  displayName: Deploy on Env2 on ${{ parameters.projectName }}
+  dependsOn: DeployOnEnv1
+  jobs:
+  - template: deploy/deploy-jobs-template.yml
+    parameters:
+      projectName: ${{ parameters.projectName }}
+- stage: DeployOnEnv3
+  displayName: Deploy on Env3 on ${{ parameters.projectName }}
+  dependsOn: DeployOnEnv2
+  jobs:
+  - template: deploy/deploy-jobs-template.yml
+    parameters:
+      projectName: ${{ parameters.projectName }}
+- stage: DeployOnEnvA
+  displayName: Deploy on EnvA on ${{ parameters.projectName }}
+  dependsOn: Build
+  jobs:
+  - template: deploy/deploy-jobs-template.yml
+    parameters:
+      projectName: ${{ parameters.projectName }}
+```
+
+Le template ```build/build-jobs-template.yml```
+
+```yaml
+parameters:
+- name: projectName
+  type: string
+
+jobs:
+- job: BuildPart1
+  displayName: Build Part 1 of ${{ parameters.projectName }}
+  steps:
+  - powershell: |
+      Write-Host "Hello from the build part 1 job"
+- job: BuildPart2
+  displayName: Build Part 2 of ${{ parameters.projectName }}
+  steps:
+  - powershell: |
+      Write-Host "Hello from the build part 2 job"
+```
+
+Le template ```deploy/deploy-jobs-template.yml```
+
+```yaml
+parameters:
+- name: projectName
+  type: string
+
+jobs:
+- job: DeployInfra
+  displayName: Deploy Infra on ${{ parameters.projectName }}
+  steps:
+  - powershell: |
+      Write-Host "Deploying infra on ${{ parameters.projectName }}"
+- job: DeployApp
+  displayName: Deploy App on ${{ parameters.projectName }}
+  steps:
+  - powershell: |
+      Write-Host "Deploying App on ${{ parameters.projectName }}"
+```
+
+## Côté projet
+
+```yaml
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+resources:
+  repositories:
+  - repository: pipelines
+    type: git
+    name: AzureDevOps/azure-pipelines
+    ref: refs/heads/main
+
+extends:
+  template: base.yml@pipelines
+  parameters:
+    projectName: MyProj
+```
+
 # Takeaway
 
 ## Lessons learned
@@ -176,7 +293,7 @@ Le tag permet par ailleurs de faire un rollback rapidement en cas de bug majeur 
 - Si j'ai bien pensé à découper mon template dès le début pour simplifier la lecture et faciliter la réutilisation de jobs, j'aurais du partir à ce moment là sur des templates de pipeline
 - Il faut développer au maximum le principe de convention
 - Il faut, en combinaison avec le principe de convention, un maximum de valeurs par défaut
-- Si on centralise les templates de pipeline à un endroit, on augment aussi d'une certaine manière le risque d'erreur.
+- Si on centralise les templates de pipeline à un endroit, on augment aussi d'une certaine manière le risque d'erreur. Donc, comme pour une application normale : **tester**, **tester**, **tester**
 
 
 ## Visual Studio Code
