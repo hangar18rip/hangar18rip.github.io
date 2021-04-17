@@ -38,3 +38,5 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 gem "jekyll-paginate", "~> 1.1"
 gem "jekyll-sitemap", "~> 1.3"
 gem "jekyll-gist", "~> 1.5"
+
+gem "minimal-mistakes-jekyll"

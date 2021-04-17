@@ -38,7 +38,8 @@ locale: 'fr_FR'
 
 # Build settings
 # theme: # minima
-remote_theme: "mmistakes/minimal-mistakes@4.22.0"
+theme: minimal-mistakes-jekyll
+# remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 
 # texture
 plugins:
@@ -107,7 +108,7 @@ exclude:
 #     github:  thelehhman
 #     linkedIn: in/thelehhman # format: locale/username
 
-minimal_mistakes_skin: "Dark"
+minimal_mistakes_skin: "Dark2"
 # breadcrumbs: true
 words_per_minute: 150
 defaults:
