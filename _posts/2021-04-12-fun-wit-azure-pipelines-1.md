@@ -1,12 +1,11 @@
 ---
-layout: post
 title:  Fun with Azure Pipelines - Intro - 1 of ...
 date:   2021-04-12 14:12:15 +0200
 tags: ["Azure DevOps", "Azure Pipelines", "DevOps"]
 categories: fr
 author: Olivier Delmotte
 thumb: /assets/pipelines.jpg
-published: false
+published: true
 ---
 
 Chez un de mes clients, je suis en charge, entre autre, de l'usine de livraison, basée sur Azure DevOps et donc Azure Pipelines. Dans ce cadre, j'accompagne une multitude d'équipes sur des projets très similaires niveau architecture et donc, similaires dans leur façon d'être construits et déployés.
