@@ -107,7 +107,7 @@ exclude:
 #     github:  thelehhman
 #     linkedIn: in/thelehhman # format: locale/username
 
-minimal_mistakes_skin: "Dark2"
+minimal_mistakes_skin: "Dark"
 # breadcrumbs: true
 words_per_minute: 150
 defaults:
