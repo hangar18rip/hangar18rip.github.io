@@ -1,12 +1,13 @@
 ---
-layout: page
+layout: single
 title: About me
 permalink: /me/
 published: true
+classes: wide
 ---
 Hello,
 
-Je suis Olivier Delmotte. DevOps Coach et Trainer @[Avanade](https://www.linkedin.com/showcase/avanade-france/)
+Je suis Olivier. DevOps Coach et Trainer @[Avanade](https://www.linkedin.com/showcase/avanade-france/)
 
 Je traite de sujets autour du DevOps, principalement sur la stack Microsoft ([Azure](https://azure.microsoft.com), [Azure DevOps](https://dev.azure.com/)).
 

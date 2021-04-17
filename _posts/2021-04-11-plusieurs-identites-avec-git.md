@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Gérer plusieurs personnalités dans git
 date:   2021-04-11 14:12:15 +0200
 tags: ["git", "Tips", "Consulting", "DevOps", "Source Control"]
