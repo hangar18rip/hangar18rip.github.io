@@ -39,4 +39,4 @@ gem "jekyll-paginate", "~> 1.1"
 gem "jekyll-sitemap", "~> 1.3"
 gem "jekyll-gist", "~> 1.5"
 
-gem "minimal-mistakes-jekyll"
+# gem "minimal-mistakes-jekyll"

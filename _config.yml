@@ -38,12 +38,11 @@ locale: 'fr_FR'
 
 # Build settings
 # theme: # minima
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
 # remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 
 # texture
 plugins:
-  - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-gist
@@ -52,7 +51,6 @@ plugins:
   - jekyll-include-cache
 
 whitelist:
-  - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-gist
