@@ -1,4 +1,5 @@
 ---
-layout: home
+layout: tags
 author_profile: true
+classes: wide
 ---

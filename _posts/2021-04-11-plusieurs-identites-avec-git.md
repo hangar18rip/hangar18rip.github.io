@@ -3,8 +3,9 @@ title:  Gérer plusieurs personnalités dans git
 date:   2021-04-11 14:12:15 +0200
 tags: ["git", "Tips", "Consulting", "DevOps", "Source Control"]
 categories: fr
-author: Olivier Delmotte
 thumb: /assets/rtfm.jpg
+header:
+  teaser: /assets/rtfm.jpg
 ---
 En tant que consultant, je travaille régulièrement pour des clients différents en plus des projets internes et même quelques projets persos sur GitHub ou autre.
 

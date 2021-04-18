@@ -3,8 +3,9 @@ title:  Fun with Azure Pipelines - Intro - 1 of ...
 date:   2021-04-12 14:12:15 +0200
 tags: ["Azure DevOps", "Azure Pipelines", "DevOps"]
 categories: fr
-author: Olivier Delmotte
 thumb: /assets/pipelines.jpg
+header:
+  teaser: /assets/pipelines.jpg
 published: true
 ---
 

@@ -4,6 +4,7 @@ title: About me
 permalink: /me/
 published: true
 classes: wide
+author_profile: true
 ---
 Hello,
 
