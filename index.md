@@ -5,6 +5,6 @@ classes: wide
 title: ""
 ---
 
-<!-- # Bienvenue -->
+# Bienvenue
 
 <!-- <p>Ce blog est encore en cours de configuration ;)</p>{: .notice--warning .text-center} -->
