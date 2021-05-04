@@ -15,6 +15,7 @@ Je traite de sujets autour du DevOps, principalement sur la stack Microsoft ([Az
 ![AZ-900](/assets/certifs/az-900.png){: class="certif" }
 ![PL-900](/assets/certifs/pl-900.png){: class="certif" }
 ![DP-900](/assets/certifs/dp-900.png){: class="certif" }
+![SC-900](/assets/certifs/sc-900.png){: class="certif" }
 
 ![AZ-103](/assets/certifs/az-103.png){: class="certif" }
 ![AZ-204](/assets/certifs/az-204.png){: class="certif" }
