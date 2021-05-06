@@ -27,6 +27,6 @@ Je traite de sujets autour du DevOps, principalement sur la stack Microsoft ([Az
 ![MCT 2021-2022](/assets/certifs/mct-2021-2022.png){: class="certif" }
 
 ![Terraform](/assets/certifs/terraform.png){: class="certif" }
-![GitLab Certified Associate](/assets/certifs/gitlab-certified-associate.png){: class="certif" }
+[![GitLab Certified Associate](/assets/certifs/gitlab-certified-associate.png){: class="certif" }](https://badgr.com/public/assertions/rhvIyrbxQbupP5WnT2OcNA)
 
-[View on Creddly](https://www.credly.com/users/o.delmotte)
+[View on Creddly](https://www.credly.com/users/o.delmotte) | [View on badgr](https://badgr.com/public/assertions/rhvIyrbxQbupP5WnT2OcNA)
