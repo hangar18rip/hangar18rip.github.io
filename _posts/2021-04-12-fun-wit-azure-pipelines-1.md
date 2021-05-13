@@ -1,7 +1,7 @@
 ---
-title:  Fun with Azure Pipelines - Intro - 1 of ...
+title:  Fun with Azure Pipelines - Intro - 1/?
 date:   2021-04-12 14:12:15 +0200
-tags: ["Azure DevOps", "Azure Pipelines", "DevOps"]
+tags: ["Azure DevOps", "Azure Pipelines", "DevOps", "Fun with Azure Pipelines"]
 categories: fr
 thumb: /assets/pipelines.jpg
 header:

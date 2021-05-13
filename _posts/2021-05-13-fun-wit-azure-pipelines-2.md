@@ -1,7 +1,7 @@
 ---
-title:  Fun with Azure Pipelines - 2 of ...
+title:  Fun with Azure Pipelines - if - 2/?
 date:   2021-05-13 14:12:15 +0200
-tags: ["Azure DevOps", "Azure Pipelines", "DevOps"]
+tags: ["Azure DevOps", "Azure Pipelines", "DevOps", "Fun with Azure Pipelines"]
 categories: fr
 thumb: /assets/pipelines.jpg
 published: true
