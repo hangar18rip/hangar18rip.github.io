@@ -12,6 +12,8 @@ Je suis Olivier. DevOps Coach et Trainer @[Avanade](https://www.linkedin.com/sho
 
 Je traite de sujets autour du DevOps, principalement sur la stack Microsoft ([Azure](https://azure.microsoft.com), [Azure DevOps](https://dev.azure.com/)).
 
+[![rMVP](/assets/certifs/rmvp.png){: class="rmvp" }](https://mvp.microsoft.com/en-us/PublicProfile/36860)
+
 [![AZ-900](/assets/certifs/az-900.png){: class="certif" }](https://www.credly.com/badges/c4690d22-f982-47b8-8d54-af9dc0da70a7)
 [![PL-900](/assets/certifs/pl-900.png){: class="certif" }](https://www.credly.com/badges/82bd3405-1925-4522-8a39-5da6928aecbe)
 [![DP-900](/assets/certifs/dp-900.png){: class="certif" }](https://www.credly.com/badges/1ec69d2c-fa52-4f14-b083-8208d350ab52)
@@ -30,3 +32,4 @@ Je traite de sujets autour du DevOps, principalement sur la stack Microsoft ([Az
 [![GitLab Certified Associate](/assets/certifs/gitlab-certified-associate.png){: class="certif" }](https://badgr.com/public/assertions/rhvIyrbxQbupP5WnT2OcNA)
 
 [View on Creddly](https://www.credly.com/users/o.delmotte) | [View on badgr](https://badgr.com/public/assertions/rhvIyrbxQbupP5WnT2OcNA)
+
