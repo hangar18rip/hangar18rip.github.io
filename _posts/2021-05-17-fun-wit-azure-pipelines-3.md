@@ -4,7 +4,7 @@ date:   2021-05-17 14:13:15 +0200
 tags: ["Azure DevOps", "Azure Pipelines", "DevOps", "Fun with Azure Pipelines"]
 categories: fr
 thumb: /assets/pipelines.jpg
-published: false
+published: true
 ---
 
 Cet article fait partie d'une série consacré à Azure Pipelines. Retrouvez les épisodes précédents :
