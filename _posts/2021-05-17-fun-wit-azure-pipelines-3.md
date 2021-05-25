@@ -4,6 +4,8 @@ date:   2021-05-17 14:13:15 +0200
 tags: ["Azure DevOps", "Azure Pipelines", "DevOps", "Fun with Azure Pipelines"]
 categories: fr
 thumb: /assets/pipelines.jpg
+header:
+  teaser: /assets/pipelines.jpg
 published: true
 ---
 
