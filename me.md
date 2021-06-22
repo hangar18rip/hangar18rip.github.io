@@ -17,6 +17,7 @@ Je traite de sujets autour du DevOps, principalement sur la stack Microsoft ([Az
 [![MCT 2020-2021](/assets/certifs/mct-2020-2021.png){: class="certif" }](https://www.credly.com/badges/e624323c-d2d2-4224-bf1c-5240cb8b1254)
 [![MCT 2021-2022](/assets/certifs/mct-2021-2022.png){: class="certif" }](https://www.credly.com/badges/713ae6c9-0192-48ff-93f5-33421d0375dd)
 
+[![AZ-304](/assets/certifs/az-304.png){: class="certif" }](https://www.credly.com/badges/06505a14-8697-4c42-8048-da17dbb6ab45)
 [![AZ-400](/assets/certifs/az-400.png){: class="certif" }](https://www.credly.com/badges/b19fd1df-887e-4204-a828-66bc5ff87585)
 
 [![AZ-103](/assets/certifs/az-103.png){: class="certif" }](https://www.credly.com/badges/30ad0a08-e480-4663-80af-a725e9222b64)
@@ -25,6 +26,7 @@ Je traite de sujets autour du DevOps, principalement sur la stack Microsoft ([Az
 
 [![AZ-400-Exam](/assets/certifs/az-400-exam.png){: class="certif" }](https://www.credly.com/badges/b19fd1df-887e-4204-a828-66bc5ff87585)
 [![AZ-303-Exam](/assets/certifs/az-303-exam.png){: class="certif" }](https://www.credly.com/badges/c683c6ea-a84a-4612-931c-19f102de58f4)
+[![AZ-304-Exam](/assets/certifs/az-304-exam.png){: class="certif" }](https://www.credly.com/badges/9d5f4270-fb68-44f4-b0e2-1256165d0998)
 
 [![AZ-900](/assets/certifs/az-900.png){: class="certif" }](https://www.credly.com/badges/c4690d22-f982-47b8-8d54-af9dc0da70a7)
 [![PL-900](/assets/certifs/pl-900.png){: class="certif" }](https://www.credly.com/badges/82bd3405-1925-4522-8a39-5da6928aecbe)
