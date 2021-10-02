@@ -34,9 +34,10 @@ Je traite de sujets autour du DevOps, principalement sur la stack Microsoft ([Az
 [![SC-900](/assets/certifs/sc-900.png){: class="certif" }](https://www.credly.com/badges/b52795fd-ce3d-4ae6-978d-64a942711412)
 
 [![Terraform](/assets/certifs/terraform.png){: class="certif" }](https://www.credly.com/badges/0e602192-28a6-4fa6-acd9-d5733a39ac14)
+[![MS OpenHack - DevOps](/assets/certifs/psmi.png){: class="certif" }](https://www.credly.com/badges/c550be12-8235-4a68-83d9-ebab816d3e46)
+[![PSM I](/assets/certifs/psmi.png){: class="certif" }](https://www.credly.com/badges/1bc2c009-ca99-49f5-8956-77a46fc82ca8)
 [![GitLab Certified Associate](/assets/certifs/gitlab-certified-associate.png){: class="certif" }](https://badgr.com/public/assertions/rhvIyrbxQbupP5WnT2OcNA)
 
-[![PSM I](/assets/certifs/psmi.png){: class="certif" }](https://www.scrum.org/certificates/679857)
 
 [View on Creddly](https://www.credly.com/users/o.delmotte) | [View on badgr](https://badgr.com/public/assertions/rhvIyrbxQbupP5WnT2OcNA)
 
