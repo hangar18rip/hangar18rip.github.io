@@ -101,6 +101,8 @@ L'origine du problème c'est ... moi. Dans un moment d'égarement, j'ai mal déc
 
 Les erreurs de syntaxe, ça arrive à tout le monde (note pour plus tard : prendre des pauses et se coucher plus tard). Comment s'en prémunir ?
 
+## Schema validation
+
 Pour les pipelines, il existe un schéma JSON maintenu par Microsoft : [https://github.com/microsoft/azure-pipelines-vscode/blob/main/service-schema.json](https://github.com/microsoft/azure-pipelines-vscode/blob/main/service-schema.json)
 
 Avec Visual Studio Code, vous pouvez utiliser l'[extension YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) de [Red Hat](https://marketplace.visualstudio.com/publishers/redhat). Elle propose deux moyens de valider que votre YAML est valide
@@ -124,6 +126,8 @@ A vous d'adapter le filtre pour savoir à quels YAML vous voulez appliquer le sc
 ![Pour tester](/assets/azdo-pipeline-restapi-error/validation-test.png)
 
 ![Et ça marche !](/assets/azdo-pipeline-restapi-error/validation-error.png)
+
+## Validation via l'API Pipeline
 
 Une alternative, qui n'est pas valable pour la création d'un pipeline, consiste à utiliser une autre API d'Azure DevOps : [https://docs.microsoft.com/en-us/rest/api/azure/devops/pipelines/preview/preview?view=azure-devops-rest-6.1](https://docs.microsoft.com/en-us/rest/api/azure/devops/pipelines/preview/preview?view=azure-devops-rest-6.1).
 
