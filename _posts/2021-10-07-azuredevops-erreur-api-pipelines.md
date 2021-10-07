@@ -1,6 +1,6 @@
 ---
 title: \'No pool was specified\' avec l'API pipelines d'Azure DevOps
-date:   2021-10-07 08:00:00 +0200
+date:   2021-10-07 11:40:00 +0200
 tags: ["pipelines", "api", "DevOps", "Azure DevOps", "Azure Pipelines", "yaml", "schema"]
 categories: fr
 thumb: /assets/pipelines.jpg
@@ -124,6 +124,10 @@ A vous d'adapter le filtre pour savoir à quels YAML vous voulez appliquer le sc
 ![Pour tester](/assets/azdo-pipeline-restapi-error/validation-test.png)
 
 ![Et ça marche !](/assets/azdo-pipeline-restapi-error/validation-error.png)
+
+Une alternative, qui n'est pas valable pour la création d'un pipeline, consiste à utiliser une autre API d'Azure DevOps : [https://docs.microsoft.com/en-us/rest/api/azure/devops/pipelines/preview/preview?view=azure-devops-rest-6.1](https://docs.microsoft.com/en-us/rest/api/azure/devops/pipelines/preview/preview?view=azure-devops-rest-6.1).
+
+Elle suppose que vous avez déjà créé un pipeline et que vous voulez valider une nouvelle version de sa définition. Le module VSTeam comporte une CmdLet pour vous faciliter la vie : [https://methodsandpractices.github.io/vsteam-docs/docs/modules/vsteam/commands/Test-VSTeamYamlPipeline/](https://methodsandpractices.github.io/vsteam-docs/docs/modules/vsteam/commands/Test-VSTeamYamlPipeline/)
 
 Et voilà comment d'un mauvais message d'erreur on améliore nos pratiques.
 
