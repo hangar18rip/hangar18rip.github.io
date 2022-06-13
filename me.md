@@ -16,7 +16,10 @@ Je traite de sujets autour du DevOps, principalement sur la stack Microsoft ([Az
 
 [![MCT 2020-2021](/assets/certifs/mct-2020-2021.png){: class="certif" }](https://www.credly.com/badges/e624323c-d2d2-4224-bf1c-5240cb8b1254)
 [![MCT 2021-2022](/assets/certifs/mct-2021-2022.png){: class="certif" }](https://www.credly.com/badges/713ae6c9-0192-48ff-93f5-33421d0375dd)
+[![MCT 2021-2022](/assets/certifs/mct-2022-2023.png){: class="certif" }](https://www.credly.com/badges/bb9dbd97-58a5-486d-a00c-a6563438f521)
 
+
+[![AZ-304](/assets/certifs/az-304.png){: class="certif" }](https://www.credly.com/badges/06505a14-8697-4c42-8048-da17dbb6ab45)
 [![AZ-400](/assets/certifs/az-400.png){: class="certif" }](https://www.credly.com/badges/b19fd1df-887e-4204-a828-66bc5ff87585)
 [![AZ-304](/assets/certifs/az-304.png){: class="certif" }](https://www.credly.com/badges/06505a14-8697-4c42-8048-da17dbb6ab45)
 
@@ -33,8 +36,18 @@ Je traite de sujets autour du DevOps, principalement sur la stack Microsoft ([Az
 [![DP-900](/assets/certifs/dp-900.png){: class="certif" }](https://www.credly.com/badges/1ec69d2c-fa52-4f14-b083-8208d350ab52)
 [![SC-900](/assets/certifs/sc-900.png){: class="certif" }](https://www.credly.com/badges/b52795fd-ce3d-4ae6-978d-64a942711412)
 
-[![Terraform](/assets/certifs/terraform.png){: class="certif" }](https://www.credly.com/badges/0e602192-28a6-4fa6-acd9-d5733a39ac14)
+[![MS OpenHack - DevOps](/assets/certifs/oh-devops.png){: class="certif" }](https://www.credly.com/badges/c550be12-8235-4a68-83d9-ebab816d3e46)
+[![MS OpenHack - DevOps Coach](/assets/certifs/oh-devops-coach.png){: class="certif" }](https://www.credly.com/badges/434954ac-9577-4c2d-8d8e-b14e44e733e7)
+[![MS OpenHack - Container](/assets/certifs/oh-container.png){: class="certif" }](https://www.credly.com/badges/0c1fb35a-7411-4c73-9908-6bd4fae6deec)
+[![MS OpenHack - Serverless](/assets/certifs/oh-serverless.png){: class="certif" }](https://www.credly.com/badges/5d86faef-340c-4777-84cd-5cd3c6d98666)
+
+
+[![PSM I](/assets/certifs/psmi.png){: class="certif" }](https://www.credly.com/badges/1bc2c009-ca99-49f5-8956-77a46fc82ca8)
+[![PSPO I](/assets/certifs/pspo.png){: class="certif" }](https://www.credly.com/badges/c972c5b4-e2d8-441a-9c79-09ca17455036)
+
+[![Terraform](/assets/certifs/terraform-new.png){: class="certif" }](https://www.credly.com/badges/0e602192-28a6-4fa6-acd9-d5733a39ac14)
 [![GitLab Certified Associate](/assets/certifs/gitlab-certified-associate.png){: class="certif" }](https://badgr.com/public/assertions/rhvIyrbxQbupP5WnT2OcNA)
+
 
 [View on Creddly](https://www.credly.com/users/o.delmotte) | [View on badgr](https://badgr.com/public/assertions/rhvIyrbxQbupP5WnT2OcNA)
 
