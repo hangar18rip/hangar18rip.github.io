@@ -48,5 +48,5 @@ Je traite de sujets autour du DevOps, principalement sur la stack Microsoft ([Az
 [![GitLab Certified Associate](/assets/certifs/gitlab-certified-associate.png){: class="certif" }](https://badgr.com/public/assertions/rhvIyrbxQbupP5WnT2OcNA)
 
 
-[View on Creddly](https://www.credly.com/users/o.delmotte) | [View on badgr](https://badgr.com/public/assertions/rhvIyrbxQbupP5WnT2OcNA)
+[View on Creddly](https://www.credly.com/users/o.delmotte)
 
