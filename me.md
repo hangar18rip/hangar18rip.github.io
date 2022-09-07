@@ -30,6 +30,10 @@ Je traite de sujets autour du DevOps, principalement sur la stack Microsoft ([Az
 [![AZ-303-Exam](/assets/certifs/az-303-exam.png){: class="certif" }](https://www.credly.com/badges/c683c6ea-a84a-4612-931c-19f102de58f4)
 [![AZ-304-Exam](/assets/certifs/az-304-exam.png){: class="certif" }](https://www.credly.com/badges/9d5f4270-fb68-44f4-b0e2-1256165d0998)
 
+[![GitHub Actions](/assets/certifs/gh-actions.png){: class="certif" }](https://www.credly.com/badges/558be786-74f7-4215-9de7-b04a9c0176da)
+[![GitHub Advanced Security](/assets/certifs/gh-as.png){: class="certif" }](https://www.credly.com/badges/42386046-07b7-48b2-b6a3-5b969a305599)
+[![GitHub Admin](/assets/certifs/gh-admin.png){: class="certif" }](https://www.credly.com/badges/0e23b844-f2ae-4081-b1af-480169e91614)
+
 [![AZ-900](/assets/certifs/az-900.png){: class="certif" }](https://www.credly.com/badges/c4690d22-f982-47b8-8d54-af9dc0da70a7)
 [![PL-900](/assets/certifs/pl-900.png){: class="certif" }](https://www.credly.com/badges/82bd3405-1925-4522-8a39-5da6928aecbe)
 [![DP-900](/assets/certifs/dp-900.png){: class="certif" }](https://www.credly.com/badges/1ec69d2c-fa52-4f14-b083-8208d350ab52)
