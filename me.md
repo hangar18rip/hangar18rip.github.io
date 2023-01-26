@@ -17,6 +17,7 @@ Je traite de sujets autour du DevOps, principalement sur la stack Microsoft ([Az
 [![MCT 2020-2021](/assets/certifs/mct-2020-2021.png){: class="certif" }](https://www.credly.com/badges/e624323c-d2d2-4224-bf1c-5240cb8b1254)
 [![MCT 2021-2022](/assets/certifs/mct-2021-2022.png){: class="certif" }](https://www.credly.com/badges/713ae6c9-0192-48ff-93f5-33421d0375dd)
 [![MCT 2021-2022](/assets/certifs/mct-2022-2023.png){: class="certif" }](https://www.credly.com/badges/bb9dbd97-58a5-486d-a00c-a6563438f521)
+[![MCT 2021-2022](/assets/certifs/mct-2023-2024.png){: class="certif" }](https://www.credly.com/badges/b9c8d113-8ea1-40ca-84ad-dcafba02f46a)
 
 [![AZ-304](/assets/certifs/az-304.png){: class="certif" }](https://www.credly.com/badges/06505a14-8697-4c42-8048-da17dbb6ab45)
 [![AZ-400](/assets/certifs/az-400.png){: class="certif" }](https://www.credly.com/badges/b19fd1df-887e-4204-a828-66bc5ff87585)
