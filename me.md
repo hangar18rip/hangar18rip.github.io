@@ -16,8 +16,8 @@ Je traite de sujets autour du DevOps, principalement sur la stack Microsoft ([Az
 
 [![MCT 2020-2021](/assets/certifs/mct-2020-2021.png){: class="certif" }](https://www.credly.com/badges/e624323c-d2d2-4224-bf1c-5240cb8b1254)
 [![MCT 2021-2022](/assets/certifs/mct-2021-2022.png){: class="certif" }](https://www.credly.com/badges/713ae6c9-0192-48ff-93f5-33421d0375dd)
-[![MCT 2021-2022](/assets/certifs/mct-2022-2023.png){: class="certif" }](https://www.credly.com/badges/bb9dbd97-58a5-486d-a00c-a6563438f521)
-[![MCT 2021-2022](/assets/certifs/mct-2023-2024.png){: class="certif" }](https://www.credly.com/badges/b9c8d113-8ea1-40ca-84ad-dcafba02f46a)
+[![MCT 2022-2023](/assets/certifs/mct-2022-2023.png){: class="certif" }](https://www.credly.com/badges/bb9dbd97-58a5-486d-a00c-a6563438f521)
+[![MCT 2023-2024](/assets/certifs/mct-2023-2024.png){: class="certif" }](https://www.credly.com/badges/b9c8d113-8ea1-40ca-84ad-dcafba02f46a)
 
 [![AZ-304](/assets/certifs/az-304.png){: class="certif" }](https://www.credly.com/badges/06505a14-8697-4c42-8048-da17dbb6ab45)
 [![AZ-400](/assets/certifs/az-400.png){: class="certif" }](https://www.credly.com/badges/b19fd1df-887e-4204-a828-66bc5ff87585)
@@ -47,8 +47,11 @@ Je traite de sujets autour du DevOps, principalement sur la stack Microsoft ([Az
 
 [![PSM I](/assets/certifs/psmi.png){: class="certif" }](https://www.credly.com/badges/1bc2c009-ca99-49f5-8956-77a46fc82ca8)
 [![PSPO I](/assets/certifs/pspo.png){: class="certif" }](https://www.credly.com/badges/c972c5b4-e2d8-441a-9c79-09ca17455036)
+[![PSD](/assets/certifs/psd.png){: class="certif" }](https://www.credly.com/badges/321f6af9-f0be-41cb-85dc-c475bd0b4a19)
 
 [![Terraform](/assets/certifs/terraform-new.png){: class="certif" }](https://www.credly.com/badges/0e602192-28a6-4fa6-acd9-d5733a39ac14)
-[![GitLab Certified Associate](/assets/certifs/gitlab-certified-associate.png){: class="certif" }](https://www.credly.com/badges/8e0f2359-cef1-4f5f-9e1f-48f7af6df3a4/public_url)
+[![GitLab Certified Associate](/assets/certifs/gitlab-certified-associate.png){: class="certif" }](https://www.credly.com/badges/8e0f2359-cef1-4f5f-9e1f-48f7af6df3a4)
+
+[![LFC131](/assets/certifs/lfc131.png){: class="certif" }](https://www.credly.com/badges/7f934be1-2081-4c50-a05c-7073a68cf418)
 
 [View on Creddly](https://www.credly.com/users/o.delmotte)
