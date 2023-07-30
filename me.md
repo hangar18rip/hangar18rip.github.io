@@ -50,7 +50,8 @@ Je traite de sujets autour du DevOps, principalement sur la stack Microsoft ([Az
 [![PSPO I](/assets/certifs/pspo.png){: class="certif" }](https://www.credly.com/badges/c972c5b4-e2d8-441a-9c79-09ca17455036)
 [![PSD](/assets/certifs/psd.png){: class="certif" }](https://www.credly.com/badges/321f6af9-f0be-41cb-85dc-c475bd0b4a19)
 
-[![Terraform](/assets/certifs/terraform-new.png){: class="certif" }](https://www.credly.com/badges/0e602192-28a6-4fa6-acd9-d5733a39ac14)
+<!-- [![Terraform](/assets/certifs/terraform-new.png){: class="certif" }](https://www.credly.com/badges/0e602192-28a6-4fa6-acd9-d5733a39ac14) -->
+[![Terraform](/assets/certifs/terraform-003.png){: class="certif" }](https://www.credly.com/badges/842fcdc2-9198-432e-ba04-6d4d978e2731)
 [![GitLab Certified Associate](/assets/certifs/gitlab-certified-associate.png){: class="certif" }](https://www.credly.com/badges/8e0f2359-cef1-4f5f-9e1f-48f7af6df3a4)
 
 [![LFC131](/assets/certifs/lfc131.png){: class="certif" }](https://www.credly.com/badges/7f934be1-2081-4c50-a05c-7073a68cf418)
