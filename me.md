@@ -40,6 +40,8 @@ Je traite de sujets autour du DevOps, principalement sur la stack Microsoft ([Az
 [![PL-900](/assets/certifs/pl-900.png){: class="certif" }](https://www.credly.com/badges/82bd3405-1925-4522-8a39-5da6928aecbe)
 [![DP-900](/assets/certifs/dp-900.png){: class="certif" }](https://www.credly.com/badges/1ec69d2c-fa52-4f14-b083-8208d350ab52)
 [![SC-900](/assets/certifs/sc-900.png){: class="certif" }](https://www.credly.com/badges/b52795fd-ce3d-4ae6-978d-64a942711412)
+[![SC-900](/assets/certifs/microsoft-certified-fundamentals-badge.svg){: class="certif" }](https://learn.microsoft.com/api/credentials/share/en-us/hangar18/3918C6A1A0CFC812?sharingId=99F83238866D57E9)
+
 
 [![MS OpenHack - DevOps](/assets/certifs/oh-devops.png){: class="certif" }](https://www.credly.com/badges/c550be12-8235-4a68-83d9-ebab816d3e46)
 [![MS OpenHack - DevOps Coach](/assets/certifs/oh-devops-coach.png){: class="certif" }](https://www.credly.com/badges/434954ac-9577-4c2d-8d8e-b14e44e733e7)
