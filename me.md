@@ -35,13 +35,13 @@ Je traite de sujets autour du DevOps, principalement sur la stack Microsoft ([Az
 [![GitHub Actions](/assets/certifs/gh-actions.png){: class="certif" }](https://www.credly.com/badges/558be786-74f7-4215-9de7-b04a9c0176da)
 [![GitHub Advanced Security](/assets/certifs/gh-as.png){: class="certif" }](https://www.credly.com/badges/42386046-07b7-48b2-b6a3-5b969a305599)
 [![GitHub Admin](/assets/certifs/gh-admin.png){: class="certif" }](https://www.credly.com/badges/0e23b844-f2ae-4081-b1af-480169e91614)
+[![GitHub Foundations](/assets/certifs/gh-foundations.png){: class="certif" }](https://www.credly.com/badges/956e7004-ea47-48e9-a9f8-b4f8baee35ad)
 
 [![AZ-900](/assets/certifs/az-900.png){: class="certif" }](https://www.credly.com/badges/c4690d22-f982-47b8-8d54-af9dc0da70a7)
 [![PL-900](/assets/certifs/pl-900.png){: class="certif" }](https://www.credly.com/badges/82bd3405-1925-4522-8a39-5da6928aecbe)
 [![DP-900](/assets/certifs/dp-900.png){: class="certif" }](https://www.credly.com/badges/1ec69d2c-fa52-4f14-b083-8208d350ab52)
 [![SC-900](/assets/certifs/sc-900.png){: class="certif" }](https://www.credly.com/badges/b52795fd-ce3d-4ae6-978d-64a942711412)
 [![SC-900](/assets/certifs/microsoft-certified-fundamentals-badge.svg){: class="certif" }](https://learn.microsoft.com/api/credentials/share/en-us/hangar18/3918C6A1A0CFC812?sharingId=99F83238866D57E9)
-
 
 [![MS OpenHack - DevOps](/assets/certifs/oh-devops.png){: class="certif" }](https://www.credly.com/badges/c550be12-8235-4a68-83d9-ebab816d3e46)
 [![MS OpenHack - DevOps Coach](/assets/certifs/oh-devops-coach.png){: class="certif" }](https://www.credly.com/badges/434954ac-9577-4c2d-8d8e-b14e44e733e7)
@@ -51,7 +51,7 @@ Je traite de sujets autour du DevOps, principalement sur la stack Microsoft ([Az
 [![PSM I](/assets/certifs/psmi.png){: class="certif" }](https://www.credly.com/badges/1bc2c009-ca99-49f5-8956-77a46fc82ca8)
 [![PSPO I](/assets/certifs/pspo.png){: class="certif" }](https://www.credly.com/badges/c972c5b4-e2d8-441a-9c79-09ca17455036)
 [![PSD](/assets/certifs/psd.png){: class="certif" }](https://www.credly.com/badges/321f6af9-f0be-41cb-85dc-c475bd0b4a19)
-[![PSD](/assets/certifs/leading-safe6.png){: class="certif" }](https://www.credly.com/badges/81c94bcf-e91e-4b1f-8a5d-71666099eac8)
+[![SAFe 6 Agilist](/assets/certifs/leading-safe6.png){: class="certif" }](https://www.credly.com/badges/81c94bcf-e91e-4b1f-8a5d-71666099eac8)
 
 <!-- [![Terraform](/assets/certifs/terraform-new.png){: class="certif" }](https://www.credly.com/badges/0e602192-28a6-4fa6-acd9-d5733a39ac14) -->
 [![Terraform](/assets/certifs/terraform-003.png){: class="certif" }](https://www.credly.com/badges/842fcdc2-9198-432e-ba04-6d4d978e2731)
